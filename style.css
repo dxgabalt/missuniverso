@@ -1,0 +1,247 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f4f8; /* Azul claro suave */
+    color: #333; /* Letras oscuras */
+}
+
+header {
+    text-align: center;
+    background: linear-gradient(135deg, #FFB6C1, #87CEFA); /* Gradiente de colores pastel */
+    padding: 30px;
+    border-bottom: 2px solid #ddd;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img {
+    width: 100px; /* Aumentamos el tamaño del logo */
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.header-text h1 {
+    font-size: 48px; /* Tamaño más grande para el título principal */
+    color: rgb(213, 201, 23); /* Azul oscuro */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra sutil para resaltar el título */
+}
+
+.header-text .queen-name {
+    font-size: 60px; /* Tamaño aún más grande para el nombre de la reina */
+    color: #174b6b; /* Color oro */
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra sutil para resaltar el nombre de la reina */
+}
+
+.header-text p {
+    font-size: 20px; /* Tamaño más grande para el texto */
+    color: #555;
+    margin-bottom: 20px;
+}
+
+
+nav {
+    background: linear-gradient(135deg, #87CEFA, #FFB6C1); /* Gradiente de colores pastel */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #174b6b;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease; /* Efecto de transición suave */
+}
+
+a:hover {
+    color: #fff; /* Cambio de color al pasar el mouse - color oro */
+}
+
+
+section {
+    margin-top: 40px;
+    background: linear-gradient(135deg, #FFB6C1, #87CEFA); /* Gradiente de colores pastel */
+    padding: 30px;
+    border-radius: 15px; /* Aumentamos el radio de borde para un aspecto más redondeado */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.home-content {
+    text-align: center;
+}
+
+.home-content h2 {
+    color: #174b6b; /* Azul oscuro */
+    font-size: 40px; /* Tamaño más grande para el título */
+}
+
+.home-content p {
+    font-size: 20px; /* Tamaño más grande para el texto */
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px; /* Aumentamos el tamaño del botón */
+    background-color: #e8491d; /* Rojo oscuro */
+    color: #fff;
+    border-radius: 8px; /* Redondeamos las esquinas */
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Efecto de transición suave */
+}
+
+.cta-button:hover {
+    background-color: #174b6b; /* Cambio de color al pasar el mouse - Azul oscuro */
+}
+
+.about-content {
+    text-align: center;
+}
+
+.about-content img {
+    width: 100%;
+    max-width: 600px; /* Aumentamos el tamaño máximo de la imagen */
+    border-radius: 15px; /* Redondeamos las esquinas */
+    margin-bottom: 20px;
+}
+
+.about-content h2 {
+    color: #174b6b; /* Azul oscuro */
+    font-size: 40px; /* Tamaño más grande para el título */
+}
+
+.about-content p {
+    font-size: 20px; /* Tamaño más grande para el texto */
+    color: #555;
+}
+
+.contact-content {
+    text-align: center;
+}
+
+.contact-content h2 {
+    color: #174b6b; /* Azul oscuro */
+    font-size: 32px;
+}
+
+.contact-content p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.contact-content .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #174b6b; /* Azul oscuro */
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+    background-color: #174b6b; /* Azul oscuro */
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/* Estilos para la sección de Homenaje al Vestido */
+#dress-tribute {
+    background-color: #f8f8f8; /* Fondo gris claro */
+    padding: 30px;
+}
+
+.dress-tribute-content {
+    text-align: center;
+}
+
+.dress-tribute-content h2 {
+    color: #174b6b; /* Azul oscuro */
+    font-size: 32px;
+}
+
+.dress-tribute-content p {
+    font-size: 18px;
+    color: #555;
+}
+
+.dress-tribute-content img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Estilos para la sección de Cronograma de Eventos */
+#events {
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#events h2 {
+    color: #174b6b; /* Azul oscuro */
+    font-size: 32px;
+}
+
+/* Estilos para la sección de Testimonios y Comentarios */
+#testimonials {
+    background-color: #f8f8f8; /* Fondo gris claro */
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#testimonials h2 {
+    color: #174b6b; /* Azul oscuro */
+    font-size: 32px;
+}
+
+/* Estilos para la sección de Agradecimientos a Nuestros Patrocinadores */
+#sponsors {
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#sponsors h2 {
+    color: #174b6b; /* Azul oscuro */
+    font-size: 32px;
+}
